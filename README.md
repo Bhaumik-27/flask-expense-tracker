@@ -14,3 +14,13 @@ Expenses are stored in a CSV file, and the app allows you to **add new expenses*
 ---
 
 ## 📂 Project Structure
+expense_tracker_web/
+│── app.py # Main Flask application
+│── requirements.txt # Python dependencies
+│── .gitignore # Ignored files (like venv, CSV data)
+│── README.md # Project documentation
+│
+└── templates/ # HTML templates
+│── index.html
+│── add.html
+│── view.html
